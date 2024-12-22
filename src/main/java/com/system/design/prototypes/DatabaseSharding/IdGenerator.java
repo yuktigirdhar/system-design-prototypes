@@ -25,7 +25,7 @@ public class IdGenerator {
         // create directory for id-generator inside if not already present
         // create file name counter.txt
         // TODO: try loading these hard coded value from application properties
-        sdDirectory = "";
+        sdDirectory = ""; //  "/<path-to-directory>/SystemDesign/tmp/";
         n=10; // N is how often do you want to save the counter to file
         System.out.println(machineId);
     }

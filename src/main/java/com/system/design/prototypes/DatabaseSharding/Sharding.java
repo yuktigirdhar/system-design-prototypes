@@ -5,8 +5,7 @@ import java.sql.SQLException;
 public class Sharding {
     DataBaseConnection dataBaseConnection;
     IdGenerator idGenerator;
-
-    int noOfThreads = 100;
+    int noOfThreads = 120;
     Sharding() {
         idGenerator = new IdGenerator();
         dataBaseConnection = new DataBaseConnection();
